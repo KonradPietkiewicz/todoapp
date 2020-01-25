@@ -5,15 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Todoapp</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <form action="">
-      <input type="text" />
-      <button>Dodaj zadanie</button>
-    </form>
-    <h1>Liczba zadań: <span>0</span></h1>
-    <ul></ul>
+    <div class="wrapp">
+      <h1 class="title">ToDoList</h1>
+      <section class="add">
+        <form action="">
+          <input type="text" placeholder="Wprowadż zadanie" />
+          <button class="btn">Dodaj</button>
+        </form>
+      </section>
+      <h1 class="number">Liczba zadań: <span>0</span></h1>
+      <div class="list">
+        <ul></ul>
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
